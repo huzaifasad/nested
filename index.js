@@ -19,7 +19,7 @@ app.listen(5000);
 
 app.use(
   cors({
-    origin: ['https://midwork-frontend.vercel.app'],
+    origin: [''],
     methods: ['POST', 'GET', 'PUT', 'DELETE'], // Include PUT and DELETE methods
     credentials: true,
   })
